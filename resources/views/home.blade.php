@@ -10,7 +10,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="text-center">
+        <h1>Lista Treni in Arrivo</h1>
+    </div>
+    <div class="container mt-5">
         <div class="row">
             @forelse ($trains as $train)
             <div class="col-4">
