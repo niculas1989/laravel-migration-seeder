@@ -6,5 +6,9 @@ use App\Train;
 
 class TrainController extends Controller
 {
-    //
+    //| Funziona per andare in Home
+    public function home()
+    {
+        return view('home');
+    }
 }
